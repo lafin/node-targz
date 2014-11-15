@@ -1,7 +1,7 @@
 {
   "name": "node-targz",
-  "version": "0.0.2",
-  "description": "Simple gzip compression and decompression utility for Node.js",
+  "version": "0.0.3",
+  "description": "Simple gzip compression and decompression library for Node.js",
   "keywords": [
     "compression",
     "decompression",
