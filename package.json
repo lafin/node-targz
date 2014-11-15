@@ -23,6 +23,7 @@
     "prepublish": "npm prune"
   },
   "author": "lafin <kuvakin@gmail.com>",
+  "repository": "lafin/node-targz",
   "license": "MIT",
   "dependencies": {
     "fstream": "^1.0.2",
