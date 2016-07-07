@@ -1,6 +1,6 @@
 {
   "name": "node-targz",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Simple gzip compression and decompression library for Node.js",
   "keywords": [
     "compression",
@@ -19,13 +19,16 @@
     "node": ">= 0.10.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha -R spec && rm test/example-compress.tar.gz && rm -rf test/example-decompress",
     "prepublish": "npm prune"
   },
   "author": "lafin <kuvakin@gmail.com>",
   "repository": "lafin/node-targz",
   "license": "MIT",
   "dependencies": {
-    "tar-fs": "^1.2.0"
+    "tar-fs": "^1.13.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
   }
 }

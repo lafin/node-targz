@@ -15,7 +15,10 @@ tarGzip.compress({
     source: '../example',
     destination: '../example.tar.gz',
     level: 6, // optional
-    memLevel: 6 // optional
+    memLevel: 6, // optional
+    options: { // options from https://github.com/mafintosh/tar-fs
+        entries: ['test.txt']
+    }
 }, function () {
     tarGzip.decompress({
         source: '../example.tar.gz',
