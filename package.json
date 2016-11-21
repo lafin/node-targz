@@ -1,6 +1,6 @@
 {
   "name": "node-targz",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Simple gzip compression and decompression library for Node.js",
   "keywords": [
     "compression",
@@ -26,9 +26,9 @@
   "repository": "lafin/node-targz",
   "license": "MIT",
   "dependencies": {
-    "tar-fs": "^1.13.0"
+    "tar-fs": "^1.14.0"
   },
   "devDependencies": {
-    "mocha": "^2.5.3"
+    "mocha": "^3.1.2"
   }
 }
